@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/MMU/GitHub/Year 2/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_EntDoor2_C.uasset",
+				"D:/MMU/GitHub/Year 2/GPP/MyProject/Content/Levels/Entering_Level0.umap",
 				"D:/Documents/UNI/GitHub/Yr2/GPP/MyProject/Content/Levels/Entering_Level0.umap",
 				"D:/Documents/UNI/GitHub/Yr2/GPP/MyProject/Content/Blueprints/BP_EnteranceDoor.uasset",
 				"D:/Documents/UNI/GitHub/Yr2/GPP/MyProject/Content/Blueprints/UI/WB_Crosshair.uasset",
