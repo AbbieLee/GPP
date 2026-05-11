@@ -61468,3 +61468,111 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.11-14.41.30:358][727]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.05.11-14.41.30:358][727]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.11-14.41.30:358][727]AssetCheck: /Game/Levels/Main_Level1 Validating asset
+[2026.05.11-14.42.52:743][975]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1709.309692
+[2026.05.11-14.42.53:742][978]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-14.42.53:742][978]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1709.976196, Update Interval: 322.951141
+[2026.05.11-14.48.58:100][ 71]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2074.666260
+[2026.05.11-14.48.59:100][ 74]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-14.48.59:100][ 74]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2075.333008, Update Interval: 317.618958
+[2026.05.11-14.51.25:192][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.05.11-14.51.25:193][512]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main_Level1' took 0.029
+[2026.05.11-14.51.25:194][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_D] ([1] browsable assets)...
+[2026.05.11-14.51.25:194][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_D]
+[2026.05.11-14.51.25:194][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_D" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_D_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2026.05.11-14.51.25:252][512]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/SnowMound/T_Snow_D_Auto2
+[2026.05.11-14.51.25:252][512]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_D_Auto2CD0BD25048607F91F0057B963489E5B8.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_D_Auto2.uasset'
+[2026.05.11-14.51.25:255][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_N] ([1] browsable assets)...
+[2026.05.11-14.51.25:255][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_N]
+[2026.05.11-14.51.25:255][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_N" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_N_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2026.05.11-14.51.25:327][512]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/SnowMound/T_Snow_N_Auto2
+[2026.05.11-14.51.25:327][512]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_N_Auto22BC848C64B4130A04EE29DAB7171DE7F.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_N_Auto2.uasset'
+[2026.05.11-14.51.25:329][512]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_ORM] ([1] browsable assets)...
+[2026.05.11-14.51.25:329][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_ORM]
+[2026.05.11-14.51.25:329][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_ORM" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_ORM_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2026.05.11-14.51.25:428][512]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/SnowMound/T_Snow_ORM_Auto2
+[2026.05.11-14.51.25:428][512]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_ORM_Auto2BBF96C354EC6AFDB6CEA0E91094F755F.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Autosaves/Game/Materials/SnowMound/T_Snow_ORM_Auto2.uasset'
+[2026.05.11-14.51.25:431][512]LogFileHelpers: Auto-saving content packages took 0.237
+[2026.05.11-14.54.47:507][119]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2424.067871
+[2026.05.11-14.54.48:507][122]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-14.54.48:507][122]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2424.734619, Update Interval: 337.220978
+[2026.05.11-15.00.59:192][234]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2795.742920
+[2026.05.11-15.01.00:192][237]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.01.00:192][237]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2796.409424, Update Interval: 350.584442
+[2026.05.11-15.07.25:883][394]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3182.422119
+[2026.05.11-15.07.26:883][397]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.07.26:883][397]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3183.088623, Update Interval: 341.503967
+[2026.05.11-15.13.58:581][572]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3575.115479
+[2026.05.11-15.13.59:581][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.13.59:581][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3575.781982, Update Interval: 338.044983
+[2026.05.11-15.15.26:582][836]LogDerivedDataCache: C:/Users/24777655/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.11-15.20.27:279][738]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3963.805908
+[2026.05.11-15.20.28:278][741]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.20.28:278][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3964.472412, Update Interval: 312.982574
+[2026.05.11-15.26.39:303][854]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4335.868164
+[2026.05.11-15.26.40:303][857]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.26.40:303][857]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4336.535156, Update Interval: 338.341614
+[2026.05.11-15.32.56:330][985]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4712.959961
+[2026.05.11-15.32.57:330][988]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.32.57:330][988]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4713.626953, Update Interval: 330.295715
+[2026.05.11-15.39.02:691][ 84]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5079.375977
+[2026.05.11-15.39.03:692][ 87]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.39.03:692][ 87]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5080.042969, Update Interval: 341.401398
+[2026.05.11-15.45.30:047][246]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5466.773926
+[2026.05.11-15.45.31:048][249]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.45.31:048][249]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5467.440918, Update Interval: 322.299255
+[2026.05.11-15.51.39:408][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5836.193359
+[2026.05.11-15.51.40:408][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.51.40:408][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5836.859863, Update Interval: 302.554413
+[2026.05.11-15.57.18:099][370]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6174.945312
+[2026.05.11-15.57.19:099][373]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.57.19:099][373]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6175.611816, Update Interval: 327.417206
+[2026.05.11-16.03.36:459][505]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6553.366699
+[2026.05.11-16.03.37:459][508]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.03.37:459][508]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6554.033203, Update Interval: 331.625122
+[2026.05.11-16.09.57:485][648]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6934.448242
+[2026.05.11-16.09.58:485][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.09.58:485][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6935.114746, Update Interval: 350.432434
+[2026.05.11-16.15.26:582][467]LogDerivedDataCache: C:/Users/24777655/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.11-16.15.38:705][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.05.11-16.15.43:180][551]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.05.11-16.16.01:565][725]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.05.11-16.16.21:641][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.05.11-16.16.22:695][  6]LogSlate: Window 'Save Content' being destroyed
+[2026.05.11-16.16.22:706][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.16.22:739][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Level1" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Levels/Main_Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.11-16.16.22:894][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.05.11-16.16.27:822][  6]LogSavePackage: Moving output files for package: /Game/Levels/Main_Level1
+[2026.05.11-16.16.27:824][  6]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/Main_Level15FEF8E1646CC48B3C882C0A7F2F9FBD6.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Levels/Main_Level1.umap'
+[2026.05.11-16.16.27:907][  6]LogFileHelpers: Saving map 'Main_Level1' took 5.167
+[2026.05.11-16.16.27:907][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_D] ([1] browsable assets)...
+[2026.05.11-16.16.27:907][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_D]
+[2026.05.11-16.16.27:907][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_D" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_D.uasset" SILENT=true
+[2026.05.11-16.16.27:966][  6]LogSavePackage: Moving output files for package: /Game/Materials/SnowMound/T_Snow_D
+[2026.05.11-16.16.27:967][  6]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_D13C43F9B4173143E85A95BA4AD7EF66A.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_D.uasset'
+[2026.05.11-16.16.27:969][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_N] ([1] browsable assets)...
+[2026.05.11-16.16.27:969][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_N]
+[2026.05.11-16.16.27:969][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_N" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_N.uasset" SILENT=true
+[2026.05.11-16.16.28:049][  6]LogSavePackage: Moving output files for package: /Game/Materials/SnowMound/T_Snow_N
+[2026.05.11-16.16.28:049][  6]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_N3D794C7C4FCB2C1225716AA2EA6FB63A.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_N.uasset'
+[2026.05.11-16.16.28:052][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/SnowMound/T_Snow_ORM] ([1] browsable assets)...
+[2026.05.11-16.16.28:052][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/SnowMound/T_Snow_ORM]
+[2026.05.11-16.16.28:052][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/SnowMound/T_Snow_ORM" FILE="E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_ORM.uasset" SILENT=true
+[2026.05.11-16.16.28:185][  6]LogSavePackage: Moving output files for package: /Game/Materials/SnowMound/T_Snow_ORM
+[2026.05.11-16.16.28:186][  6]LogSavePackage: Moving 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/T_Snow_ORMEAACCE2C4E4386D49B9C4BB780AD30CD.tmp' to 'E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Content/Materials/SnowMound/T_Snow_ORM.uasset'
+[2026.05.11-16.16.28:194][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.48 sec (total: 20.6 sec)
+[2026.05.11-16.16.28:258][  6]LogContentValidation: Display: Starting to validate 4 assets
+[2026.05.11-16.16.28:258][  6]LogContentValidation: Enabled validators:
+[2026.05.11-16.16.28:258][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.16.28:258][  6]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.16.28:259][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.16.28:259][  6]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.16.28:259][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.16.28:259][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.16.28:259][  6]AssetCheck: /Game/Levels/Main_Level1 Validating asset
+[2026.05.11-16.16.28:259][  6]AssetCheck: /Game/Materials/SnowMound/T_Snow_D Validating asset
+[2026.05.11-16.16.28:259][  6]AssetCheck: /Game/Materials/SnowMound/T_Snow_N Validating asset
+[2026.05.11-16.16.28:259][  6]AssetCheck: /Game/Materials/SnowMound/T_Snow_ORM Validating asset
+[2026.05.11-16.16.28:287][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7325.292969
+[2026.05.11-16.16.28:310][  6]LogSourceControl: Display: Uncontrolled Changelist persistency file saved E:/MMU/UNI/GitHub/Yr2/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.11-16.16.28:985][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.16.28:985][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7325.658203, Update Interval: 319.164398
