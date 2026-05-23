@@ -56218,3 +56218,4 @@ Scale3D: 1.000000 1.000000 1.000000
 [2026.05.23-00.11.07:915][471]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11034.345703, Update Interval: 335.781738
 [2026.05.23-00.11.11:209][523]LogSlate: Window 'Message Log' being destroyed
 [2026.05.23-00.11.11:263][523]LogSlate: Window 'Message Log' being destroyed
+[2026.05.23-00.12.27:167][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
