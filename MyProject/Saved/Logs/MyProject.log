@@ -57940,3 +57940,37 @@ Scale3D: 1.000000 1.000000 1.000000
 [2026.05.23-00.48.41:722][528]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
 [2026.05.23-00.48.41:774][528]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
 [2026.05.23-00.48.41:780][528]LogExit: Preparing to exit.
+[2026.05.23-00.48.43:828][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2026.05.23-00.48.43:927][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:929][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:934][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:935][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:936][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:937][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:937][528]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.43:937][528]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.05.23-00.48.44:974][528]LogEditorDataStorage: Deinitializing
+[2026.05.23-00.48.47:098][528]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.05.23-00.48.47:580][528]LogExit: Editor shut down
+[2026.05.23-00.48.47:694][528]LogExit: Transaction tracking system shut down
+[2026.05.23-00.48.52:563][528]LogExit: Object subsystem successfully closed.
+[2026.05.23-00.48.52:696][528]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.05.23-00.48.54:963][528]LogMemoryProfiler: Shutdown
+[2026.05.23-00.48.54:967][528]LogNetworkingProfiler: Shutdown
+[2026.05.23-00.48.54:967][528]LoadingProfiler: Shutdown
+[2026.05.23-00.48.54:970][528]LogTimingProfiler: Shutdown
+[2026.05.23-00.48.54:998][528]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.05.23-00.48.54:999][528]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
