@@ -1835,3 +1835,44 @@ FPackageName: Skipped package /Game/Blueprints/UI/Dialogue/WB_Dialogue1 has a va
 [2026.05.24-14.06.07:056][448]LogSlate: Window 'Project Settings' being destroyed
 [2026.05.24-14.06.07:083][448]LogSlate: Window 'Project Settings' being destroyed
 [2026.05.24-14.06.31:551][807]LogSlate: External Image Picker: DecompressImage failed
+[2026.05.24-14.06.52:401][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.05.24-14.06.53:581][279]LogSlate: Window 'Save Content' being destroyed
+[2026.05.24-14.06.53:648][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-14.06.53:700][279]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Splash/EdSplash] ([1] browsable assets)...
+[2026.05.24-14.06.53:703][279]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Splash/EdSplash.EdSplash]
+[2026.05.24-14.06.53:704][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Splash/EdSplash]
+[2026.05.24-14.06.53:704][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Splash/EdSplash" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Splash/EdSplash.uasset" SILENT=true
+[2026.05.24-14.06.53:749][279]LogSavePackage: Moving output files for package: /Game/Splash/EdSplash
+[2026.05.24-14.06.53:750][279]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/EdSplash7B1742A24B1283D19EF5E3B756E6AE6B.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Splash/EdSplash.uasset'
+[2026.05.24-14.06.53:753][279]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Splash/Splash] ([1] browsable assets)...
+[2026.05.24-14.06.53:755][279]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Splash/Splash.Splash]
+[2026.05.24-14.06.53:755][279]OBJ SavePackage: Finished generating thumbnails for package [/Game/Splash/Splash]
+[2026.05.24-14.06.53:755][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Splash/Splash" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Splash/Splash.uasset" SILENT=true
+[2026.05.24-14.06.53:773][279]LogSavePackage: Moving output files for package: /Game/Splash/Splash
+[2026.05.24-14.06.53:773][279]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SplashE338E999413D0F4288E36C854D1BC3E2.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Splash/Splash.uasset'
+[2026.05.24-14.06.53:793][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.821 ms (total: 476.501 ms)
+[2026.05.24-14.06.53:862][279]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.24-14.06.53:863][279]LogContentValidation: Enabled validators:
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-14.06.53:863][279]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-14.06.53:863][279]AssetCheck: /Game/Splash/EdSplash Validating asset
+[2026.05.24-14.06.53:863][279]AssetCheck: /Game/Splash/Splash Validating asset
+[2026.05.24-14.06.53:936][279]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.24-14.07.25:119][345]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.05.24-14.07.38:028][763]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.24-14.07.38:051][763]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.24-14.07.56:161][501]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.05.24-14.07.56:229][502]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.05.24-14.07.56:312][503]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.05.24-14.07.56:429][504]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.05.24-14.07.56:524][505]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.05.24-14.08.09:970][941]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Screens/WB_NoteInsp_Tut1.WB_NoteInsp_Tut1
+[2026.05.24-14.08.09:970][941]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.05.24-14.08.10:008][941]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.05.24-14.08.12:653][ 26]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Screens/WB_NoteInsp_Tut2.WB_NoteInsp_Tut2
+[2026.05.24-14.08.12:654][ 26]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.05.24-14.08.12:696][ 26]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
