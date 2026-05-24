@@ -14987,3 +14987,167 @@ FPackageName: Skipped package /Game/Blueprints/UI/Dialogue/WB_Dialogue1 has a va
 [2026.05.24-16.16.29:172][242]AssetCheck: /Game/Blueprints/UI/Shahd_-_ThemometerUI/TickUI_2 Validating asset
 [2026.05.24-16.16.29:173][242]AssetCheck: /Game/Blueprints/UI/Shahd_-_ThemometerUI/TickUI_3 Validating asset
 [2026.05.24-16.16.29:249][242]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.24-16.21.20:177][144]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9267.148438
+[2026.05.24-16.21.21:178][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.21.21:178][148]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9267.814453, Update Interval: 302.460999
+[2026.05.24-16.26.58:559][159]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9605.536133
+[2026.05.24-16.26.59:559][162]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.26.59:559][162]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9606.202148, Update Interval: 317.675720
+[2026.05.24-16.32.48:613][209]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9955.599609
+[2026.05.24-16.32.49:614][212]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.32.49:614][212]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9956.266602, Update Interval: 359.177826
+[2026.05.24-16.38.21:231][371]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw50.WB_Thaw50
+[2026.05.24-16.38.21:289][371]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_107
+[2026.05.24-16.38.21:532][371]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_108
+[2026.05.24-16.39.10:168][337]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-16.39.10:240][337]LogInterchangeEngine: [Pending] Importing
+[2026.05.24-16.39.10:241][337]LogInterchangeEngine: Display: Interchange start importing source [D:/MMU/UNI/Year2/Semester1/GPP/UI/ThawIcicle1.png]
+[2026.05.24-16.39.10:837][339]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-16.39.10:994][340]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.05.24-16.39.11:241][341]LogTexture: Display: Building textures: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1.ThawIcicle1 (TFO_AutoDXT, 3508x3508 x1x1x1) (Required Memory Estimate: 845.99034 MB), EncodeSpeed: Fast
+[2026.05.24-16.39.11:489][341]LogInterchangeEngine: Display: Interchange import completed [D:/MMU/UNI/Year2/Semester1/GPP/UI/ThawIcicle1.png]
+[2026.05.24-16.39.12:324][341]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.24-16.39.12:324][341]LogInterchangeEngine: [Success] Import Done
+[2026.05.24-16.39.27:732][740]LogEditorTransaction: Undo Edit Image
+[2026.05.24-16.39.42:438][170]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10369.432617
+[2026.05.24-16.39.42:691][177]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.39.42:691][178]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10369.649414, Update Interval: 332.441772
+[2026.05.24-16.40.36:977][ 52]LogUObjectHash: Compacting FUObjectHashTables data took  13.50ms
+[2026.05.24-16.40.38:161][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-16.40.38:246][ 71]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ThawUI/WB_Thaw50] ([2] browsable assets)...
+[2026.05.24-16.40.38:256][ 71]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw50.WB_Thaw50]
+[2026.05.24-16.40.38:256][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ThawUI/WB_Thaw50]
+[2026.05.24-16.40.38:256][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ThawUI/WB_Thaw50" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw50.uasset" SILENT=true
+[2026.05.24-16.40.38:286][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ThawUI/WB_Thaw50
+[2026.05.24-16.40.38:288][ 71]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_Thaw50702299DE4157F64E2B9001805D425BD2.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw50.uasset'
+[2026.05.24-16.40.38:316][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.904 ms (total: 8.22 sec)
+[2026.05.24-16.40.38:408][ 71]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.24-16.40.38:408][ 71]LogContentValidation: Enabled validators:
+[2026.05.24-16.40.38:408][ 71]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-16.40.38:410][ 71]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-16.40.38:410][ 71]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-16.40.38:410][ 71]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-16.40.38:410][ 71]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-16.40.38:410][ 71]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-16.40.38:412][ 71]AssetCheck: /Game/Blueprints/UI/ThawUI/WB_Thaw50 Validating asset
+[2026.05.24-16.40.38:494][ 71]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.24-16.40.56:750][367]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw40.WB_Thaw40
+[2026.05.24-16.40.56:751][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_111
+[2026.05.24-16.40.56:776][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_112
+[2026.05.24-16.41.18:056][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2026.05.24-16.41.20:357][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-16.41.20:442][117]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ThawUI/WB_Thaw40] ([2] browsable assets)...
+[2026.05.24-16.41.20:447][117]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw40.WB_Thaw40]
+[2026.05.24-16.41.20:447][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ThawUI/WB_Thaw40]
+[2026.05.24-16.41.20:447][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ThawUI/WB_Thaw40" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw40.uasset" SILENT=true
+[2026.05.24-16.41.20:476][117]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ThawUI/WB_Thaw40
+[2026.05.24-16.41.20:477][117]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_Thaw40F720156249FF164AD70720882C389ED2.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw40.uasset'
+[2026.05.24-16.41.20:505][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.347 ms (total: 8.37 sec)
+[2026.05.24-16.41.20:579][117]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.24-16.41.20:579][117]LogContentValidation: Enabled validators:
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-16.41.20:579][117]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-16.41.20:579][117]AssetCheck: /Game/Blueprints/UI/ThawUI/WB_Thaw40 Validating asset
+[2026.05.24-16.41.20:657][117]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.24-16.41.21:757][154]LogWorld: UWorld::CleanupWorld for World_108, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.41.21:770][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.41.21:817][154]LogWorld: UWorld::CleanupWorld for World_107, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.41.21:818][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.41.21:985][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2026.05.24-16.41.25:292][276]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw30.WB_Thaw30
+[2026.05.24-16.41.25:293][276]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_115
+[2026.05.24-16.41.25:320][276]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_116
+[2026.05.24-16.41.55:136][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2026.05.24-16.41.56:432][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-16.41.56:494][246]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ThawUI/WB_Thaw30] ([2] browsable assets)...
+[2026.05.24-16.41.56:498][246]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw30.WB_Thaw30]
+[2026.05.24-16.41.56:498][246]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ThawUI/WB_Thaw30]
+[2026.05.24-16.41.56:498][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ThawUI/WB_Thaw30" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw30.uasset" SILENT=true
+[2026.05.24-16.41.56:521][246]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ThawUI/WB_Thaw30
+[2026.05.24-16.41.56:523][246]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_Thaw301FDFBA034A489045CC3451AC8D9D704B.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/ThawUI/WB_Thaw30.uasset'
+[2026.05.24-16.41.56:547][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.926 ms (total: 8.49 sec)
+[2026.05.24-16.41.56:624][246]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.24-16.41.56:624][246]LogContentValidation: Enabled validators:
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-16.41.56:625][246]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-16.41.56:625][246]AssetCheck: /Game/Blueprints/UI/ThawUI/WB_Thaw30 Validating asset
+[2026.05.24-16.41.56:713][246]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.24-16.41.57:433][273]LogWorld: UWorld::CleanupWorld for World_112, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.41.57:433][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.41.57:454][273]LogWorld: UWorld::CleanupWorld for World_111, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.41.57:454][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.41.57:581][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.05.24-16.42.26:923][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.05.24-16.42.26:925][422]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main_Level1' took 0.045
+[2026.05.24-16.42.26:929][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1] ([1] browsable assets)...
+[2026.05.24-16.42.26:932][422]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1.ThawIcicle1]
+[2026.05.24-16.42.26:932][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1]
+[2026.05.24-16.42.27:008][422]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1_Auto6
+[2026.05.24-16.42.27:008][422]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ThawIcicle1_Auto6A7AFAD05486D3425D0A026A620A9CE75.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/Autosaves/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1_Auto6.uasset'
+[2026.05.24-16.42.27:010][422]LogFileHelpers: Auto-saving content packages took 0.084
+[2026.05.24-16.46.04:848][ 76]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10751.821289
+[2026.05.24-16.46.06:179][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.46.06:180][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10752.823242, Update Interval: 317.646423
+[2026.05.24-16.48.49:098][569]LogDerivedDataCache: C:/Users/Kelco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.24-16.52.20:218][268]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11127.194336
+[2026.05.24-16.52.20:457][276]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-16.52.20:458][277]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11127.401367, Update Interval: 309.378937
+[2026.05.24-16.52.30:938][504]LogStreaming: Display: FlushAsyncLoading(685): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-16.52.31:056][504]LogInterchangeEngine: [Pending] Importing
+[2026.05.24-16.52.31:056][504]LogInterchangeEngine: Display: Interchange start importing source [D:/MMU/UNI/Year2/Semester1/GPP/UI/ThawIcicle2.png]
+[2026.05.24-16.52.31:303][506]LogStreaming: Display: FlushAsyncLoading(686): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-16.52.31:641][517]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.05.24-16.52.31:921][519]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 845.990356 MiB, MemoryLimit = 457.382812 MiB 
+[2026.05.24-16.52.31:922][519]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 845.990356 MiB, MemoryLimit = 457.808594 MiB 
+[2026.05.24-16.52.31:995][520]LogTexture: Display: Building textures: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2.ThawIcicle2 (TFO_AutoDXT, 3508x3508 x1x1x1) (Required Memory Estimate: 845.99034 MB), EncodeSpeed: Fast
+[2026.05.24-16.52.32:483][523]LogInterchangeEngine: Display: Interchange import completed [D:/MMU/UNI/Year2/Semester1/GPP/UI/ThawIcicle2.png]
+[2026.05.24-16.52.33:596][523]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.24-16.52.33:596][523]LogInterchangeEngine: [Success] Import Done
+[2026.05.24-16.52.40:489][673]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ThawUI/WB_Thaw20.WB_Thaw20
+[2026.05.24-16.52.40:583][673]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_119
+[2026.05.24-16.52.40:909][673]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_120
+[2026.05.24-16.52.50:506][943]LogSlate: Window 'WB_Thaw30' being destroyed
+[2026.05.24-16.52.54:699][158]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.52.54:704][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.52.54:750][158]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-16.52.54:750][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-16.52.56:065][158]LogUObjectHash: Compacting FUObjectHashTables data took  32.15ms
+[2026.05.24-16.53.11:930][258]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2026.05.24-16.53.11:933][258]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main_Level1' took 0.062
+[2026.05.24-16.53.11:941][258]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2] ([1] browsable assets)...
+[2026.05.24-16.53.11:950][258]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2.ThawIcicle2]
+[2026.05.24-16.53.11:950][258]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2]
+[2026.05.24-16.53.12:075][258]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2_Auto7
+[2026.05.24-16.53.12:076][258]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ThawIcicle2_Auto7373B457A4133C9F4D302E5ADE3F8F489.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/Autosaves/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2_Auto7.uasset'
+[2026.05.24-16.53.12:089][258]LogFileHelpers: Auto-saving content packages took 0.156
+[2026.05.24-16.53.12:761][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.05.24-16.53.14:103][293]LogSlate: Window 'Save Content' being destroyed
+[2026.05.24-16.53.14:149][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-16.53.14:218][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1] ([1] browsable assets)...
+[2026.05.24-16.53.14:218][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1]
+[2026.05.24-16.53.14:367][293]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1
+[2026.05.24-16.53.14:367][293]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ThawIcicle11A949B8243855863271D478DF069318E.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1.uasset'
+[2026.05.24-16.53.14:396][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2] ([1] browsable assets)...
+[2026.05.24-16.53.14:396][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2]
+[2026.05.24-16.53.14:506][293]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2
+[2026.05.24-16.53.14:506][293]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ThawIcicle2636A9C924151A85F8D6EC0B5A51F8F71.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2.uasset'
+[2026.05.24-16.53.14:527][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 377.792 ms (total: 8.86 sec)
+[2026.05.24-16.53.14:599][293]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.24-16.53.14:600][293]LogContentValidation: Enabled validators:
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-16.53.14:600][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-16.53.14:604][293]AssetCheck: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle1 Validating asset
+[2026.05.24-16.53.14:605][293]AssetCheck: /Game/Blueprints/UI/Shahd_-_ThemometerUI/ThawIcicle2 Validating asset
+[2026.05.24-16.53.14:679][293]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
