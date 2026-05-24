@@ -17431,3 +17431,152 @@ FPackageName: Skipped package /Game/Blueprints/UI/Dialogue/WB_Dialogue1 has a va
 [2026.05.24-17.27.52:517][193]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38, StreamState=2
 [2026.05.24-17.27.52:536][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
 [2026.05.24-17.27.52:669][194]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2026.05.24-17.30.48:217][509]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13435.139648
+[2026.05.24-17.30.48:389][518]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-17.30.48:389][518]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13435.291992, Update Interval: 322.777191
+[2026.05.24-17.32.01:762][367]LogContentBrowser: Attempting asset rename: Screens -> Notes
+[2026.05.24-17.32.01:785][367]LogStreaming: Display: FlushAsyncLoading(689): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-17.32.01:846][367]LogTexture: Display: Building textures: /Game/Blueprints/UI/Screens/ThemUI.ThemUI (TFO_AutoDXT, 2732x2048 x1x1x1) (Required Memory Estimate: 385.187484 MB), EncodeSpeed: Fast
+[2026.05.24-17.32.03:835][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.24-17.32.03:848][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_JourEntP1_I] ([1] browsable assets)...
+[2026.05.24-17.32.03:848][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_JourEntP1_I]
+[2026.05.24-17.32.03:848][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JourEntP1_I" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntP1_I.uasset" SILENT=true
+[2026.05.24-17.32.03:856][367]LogSavePackage: Moving output files for package: /Game/Materials/M_JourEntP1_I
+[2026.05.24-17.32.03:857][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/M_JourEntP1_I1828A03B4F12CB7CAA707E94FAAB91E5.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntP1_I.uasset'
+[2026.05.24-17.32.03:861][367]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/NamedAssets/ItemBP_JournalEnt1_C] ([2] browsable assets)...
+[2026.05.24-17.32.03:862][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_147
+[2026.05.24-17.32.04:002][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NamedAssets/ItemBP_JournalEnt1_C.ItemBP_JournalEnt1_C]
+[2026.05.24-17.32.04:002][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NamedAssets/ItemBP_JournalEnt1_C]
+[2026.05.24-17.32.04:042][367]LogSavePackage: Moving output files for package: /Game/Blueprints/NamedAssets/ItemBP_JournalEnt1_C
+[2026.05.24-17.32.04:043][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ItemBP_JournalEnt1_CF8676D5F4312F5F2751223BDF87E8423.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_JournalEnt1_C.uasset'
+[2026.05.24-17.32.04:046][367]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/NamedAssets/ItemBP_JournalEnt2_C] ([2] browsable assets)...
+[2026.05.24-17.32.04:046][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_148
+[2026.05.24-17.32.04:087][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NamedAssets/ItemBP_JournalEnt2_C.ItemBP_JournalEnt2_C]
+[2026.05.24-17.32.04:087][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NamedAssets/ItemBP_JournalEnt2_C]
+[2026.05.24-17.32.04:110][367]LogSavePackage: Moving output files for package: /Game/Blueprints/NamedAssets/ItemBP_JournalEnt2_C
+[2026.05.24-17.32.04:111][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ItemBP_JournalEnt2_C371E97D2413884A771FEECA3D6D4F03F.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_JournalEnt2_C.uasset'
+[2026.05.24-17.32.04:112][367]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C] ([2] browsable assets)...
+[2026.05.24-17.32.04:112][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_149
+[2026.05.24-17.32.04:140][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C.ItemBP_JournalEntTut1_C]
+[2026.05.24-17.32.04:140][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C]
+[2026.05.24-17.32.04:162][367]LogSavePackage: Moving output files for package: /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C
+[2026.05.24-17.32.04:162][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ItemBP_JournalEntTut1_CD417DD4843E137E9F26F56936DD2E94B.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C.uasset'
+[2026.05.24-17.32.04:165][367]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C] ([2] browsable assets)...
+[2026.05.24-17.32.04:166][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_150
+[2026.05.24-17.32.04:197][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C.ItemBP_JournalEntTut2_C]
+[2026.05.24-17.32.04:198][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C]
+[2026.05.24-17.32.04:228][367]LogSavePackage: Moving output files for package: /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C
+[2026.05.24-17.32.04:229][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ItemBP_JournalEntTut2_C8CED43334EDAB6CF0C2B77B8B26434F7.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C.uasset'
+[2026.05.24-17.32.04:233][367]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/NamedAssets/ItemBP_JarsPlacement_C] ([2] browsable assets)...
+[2026.05.24-17.32.04:234][367]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_151
+[2026.05.24-17.32.04:278][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/NamedAssets/ItemBP_JarsPlacement_C.ItemBP_JarsPlacement_C]
+[2026.05.24-17.32.04:279][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NamedAssets/ItemBP_JarsPlacement_C]
+[2026.05.24-17.32.04:306][367]LogSavePackage: Moving output files for package: /Game/Blueprints/NamedAssets/ItemBP_JarsPlacement_C
+[2026.05.24-17.32.04:307][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ItemBP_JarsPlacement_CD3FF3BD0424E326FA66F839567DBBBAC.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/NamedAssets/ItemBP_JarsPlacement_C.uasset'
+[2026.05.24-17.32.04:309][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_JourEntP2_I] ([1] browsable assets)...
+[2026.05.24-17.32.04:309][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_JourEntP2_I]
+[2026.05.24-17.32.04:309][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JourEntP2_I" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntP2_I.uasset" SILENT=true
+[2026.05.24-17.32.04:319][367]LogSavePackage: Moving output files for package: /Game/Materials/M_JourEntP2_I
+[2026.05.24-17.32.04:320][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/M_JourEntP2_I09194F4545C27373418BBB973777BD15.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntP2_I.uasset'
+[2026.05.24-17.32.04:323][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_JourEnts] ([1] browsable assets)...
+[2026.05.24-17.32.04:323][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_JourEnts]
+[2026.05.24-17.32.04:323][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JourEnts" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEnts.uasset" SILENT=true
+[2026.05.24-17.32.04:333][367]LogSavePackage: Moving output files for package: /Game/Materials/M_JourEnts
+[2026.05.24-17.32.04:334][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/M_JourEntsF384F26049094811E1587E87EDC60D81.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEnts.uasset'
+[2026.05.24-17.32.04:336][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_JourEntB_I] ([1] browsable assets)...
+[2026.05.24-17.32.04:336][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_JourEntB_I]
+[2026.05.24-17.32.04:336][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_JourEntB_I" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntB_I.uasset" SILENT=true
+[2026.05.24-17.32.04:347][367]LogSavePackage: Moving output files for package: /Game/Materials/M_JourEntB_I
+[2026.05.24-17.32.04:348][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/M_JourEntB_IA672DC8D425A0DD120AC28826622C5B1.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Materials/M_JourEntB_I.uasset'
+[2026.05.24-17.32.04:350][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/2__Hazard_Symbols] ([1] browsable assets)...
+[2026.05.24-17.32.04:350][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/2__Hazard_Symbols]
+[2026.05.24-17.32.04:350][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/2__Hazard_Symbols" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/2__Hazard_Symbols.uasset" SILENT=true
+[2026.05.24-17.32.04:376][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/2__Hazard_Symbols
+[2026.05.24-17.32.04:376][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/2__Hazard_Symbols70AD3DC648B3C760C573B3BE2C9A7C46.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/2__Hazard_Symbols.uasset'
+[2026.05.24-17.32.04:388][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/GPPUINoteInspection] ([1] browsable assets)...
+[2026.05.24-17.32.04:388][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/GPPUINoteInspection]
+[2026.05.24-17.32.04:401][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/GPPUINoteInspection
+[2026.05.24-17.32.04:401][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/GPPUINoteInspection7186998B46F8FA4C174B07ABE3C6C216.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/GPPUINoteInspection.uasset'
+[2026.05.24-17.32.04:406][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Haz] ([2] browsable assets)...
+[2026.05.24-17.32.04:406][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Haz]
+[2026.05.24-17.32.04:406][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/WB_NoteInsp_Haz" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Haz.uasset" SILENT=true
+[2026.05.24-17.32.04:427][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/WB_NoteInsp_Haz
+[2026.05.24-17.32.04:427][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_NoteInsp_Haz43A57E5249124FD9F776578717100353.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Haz.uasset'
+[2026.05.24-17.32.04:468][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/4__Levers] ([1] browsable assets)...
+[2026.05.24-17.32.04:468][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/4__Levers]
+[2026.05.24-17.32.04:468][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/4__Levers" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/4__Levers.uasset" SILENT=true
+[2026.05.24-17.32.04:493][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/4__Levers
+[2026.05.24-17.32.04:493][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/4__LeversF3F4D15340F488DA23F173A02B46000A.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/4__Levers.uasset'
+[2026.05.24-17.32.04:495][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Levers] ([2] browsable assets)...
+[2026.05.24-17.32.04:495][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Levers]
+[2026.05.24-17.32.04:511][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/WB_NoteInsp_Levers
+[2026.05.24-17.32.04:511][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_NoteInsp_Levers2CA5A0244A82AE531D37E9993DB92D62.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Levers.uasset'
+[2026.05.24-17.32.04:521][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/1__Tutorial] ([1] browsable assets)...
+[2026.05.24-17.32.04:522][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/1__Tutorial]
+[2026.05.24-17.32.04:522][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/1__Tutorial" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/1__Tutorial.uasset" SILENT=true
+[2026.05.24-17.32.04:546][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/1__Tutorial
+[2026.05.24-17.32.04:546][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/1__TutorialF9E187DD446BE78F66125BBFA8E2A6FD.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/1__Tutorial.uasset'
+[2026.05.24-17.32.04:548][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut1] ([2] browsable assets)...
+[2026.05.24-17.32.04:548][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut1]
+[2026.05.24-17.32.04:548][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut1" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Tut1.uasset" SILENT=true
+[2026.05.24-17.32.04:565][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/WB_NoteInsp_Tut1
+[2026.05.24-17.32.04:565][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_NoteInsp_Tut1C773B9E545DE33FA3AC01B87A652F9FC.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Tut1.uasset'
+[2026.05.24-17.32.04:575][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/2__Tutorial] ([1] browsable assets)...
+[2026.05.24-17.32.04:575][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/2__Tutorial]
+[2026.05.24-17.32.04:575][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/2__Tutorial" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/2__Tutorial.uasset" SILENT=true
+[2026.05.24-17.32.04:599][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/2__Tutorial
+[2026.05.24-17.32.04:599][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/2__Tutorial82DF79504EF268D8248FB1B26ED925DC.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/2__Tutorial.uasset'
+[2026.05.24-17.32.04:601][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut2] ([2] browsable assets)...
+[2026.05.24-17.32.04:602][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut2]
+[2026.05.24-17.32.04:602][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/WB_NoteInsp_Tut2" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Tut2.uasset" SILENT=true
+[2026.05.24-17.32.04:620][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/WB_NoteInsp_Tut2
+[2026.05.24-17.32.04:620][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/WB_NoteInsp_Tut2C97E76FE45B24EAEDAB58B886633A0F9.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/WB_NoteInsp_Tut2.uasset'
+[2026.05.24-17.32.04:629][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/TutNote_1] ([1] browsable assets)...
+[2026.05.24-17.32.04:630][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/TutNote_1]
+[2026.05.24-17.32.04:630][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/TutNote_1" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/TutNote_1.uasset" SILENT=true
+[2026.05.24-17.32.04:718][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/TutNote_1
+[2026.05.24-17.32.04:718][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/TutNote_10D6E811F4A0A75BE6FB75AB2F5A50DCE.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/TutNote_1.uasset'
+[2026.05.24-17.32.04:720][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/TutNote_2] ([1] browsable assets)...
+[2026.05.24-17.32.04:720][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/TutNote_2]
+[2026.05.24-17.32.04:720][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/TutNote_2" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/TutNote_2.uasset" SILENT=true
+[2026.05.24-17.32.04:808][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/TutNote_2
+[2026.05.24-17.32.04:808][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/TutNote_2C0D1AC4249D5270FE0465791C53D3A57.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/TutNote_2.uasset'
+[2026.05.24-17.32.04:813][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Notes/ThemUI] ([1] browsable assets)...
+[2026.05.24-17.32.04:813][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Notes/ThemUI]
+[2026.05.24-17.32.04:813][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Notes/ThemUI" FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/ThemUI.uasset" SILENT=true
+[2026.05.24-17.32.04:824][367]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Notes/ThemUI
+[2026.05.24-17.32.04:824][367]LogSavePackage: Moving '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/ThemUI2DF3A5544EA468D0B912029C527C5A5D.tmp' to '../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Blueprints/UI/Notes/ThemUI.uasset'
+[2026.05.24-17.32.04:826][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 990.458 ms (total: 11.5 sec)
+[2026.05.24-17.32.05:304][367]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2026.05.24-17.32.05:366][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.05.24-17.32.05:413][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.24-17.32.05:631][367]LogContentValidation: Display: Starting to validate 21 assets
+[2026.05.24-17.32.05:631][367]LogContentValidation: Enabled validators:
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.24-17.32.05:631][367]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.24-17.32.05:631][367]AssetCheck: /Game/Materials/M_JourEntP1_I Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/NamedAssets/ItemBP_JournalEnt1_C Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/NamedAssets/ItemBP_JournalEnt2_C Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut1_C Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/NamedAssets/ItemBP_JournalEntTut2_C Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/NamedAssets/ItemBP_JarsPlacement_C Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Materials/M_JourEntP2_I Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Materials/M_JourEnts Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Materials/M_JourEntB_I Validating asset
+[2026.05.24-17.32.05:632][367]AssetCheck: /Game/Blueprints/UI/Notes/2__Hazard_Symbols Validating asset
+[2026.05.24-17.32.05:633][367]AssetCheck: /Game/Blueprints/UI/Notes/GPPUINoteInspection Validating asset
+[2026.05.24-17.32.05:636][367]AssetCheck: /Game/Blueprints/UI/Notes/WB_NoteInsp_Haz Validating asset
+[2026.05.24-17.32.05:636][367]AssetCheck: /Game/Blueprints/UI/Notes/4__Levers Validating asset
+[2026.05.24-17.32.05:637][367]AssetCheck: /Game/Blueprints/UI/Notes/WB_NoteInsp_Levers Validating asset
+[2026.05.24-17.32.05:637][367]AssetCheck: /Game/Blueprints/UI/Notes/1__Tutorial Validating asset
+[2026.05.24-17.32.05:637][367]AssetCheck: /Game/Blueprints/UI/Notes/WB_NoteInsp_Tut1 Validating asset
+[2026.05.24-17.32.05:637][367]AssetCheck: /Game/Blueprints/UI/Notes/2__Tutorial Validating asset
+[2026.05.24-17.32.05:639][367]AssetCheck: /Game/Blueprints/UI/Notes/WB_NoteInsp_Tut2 Validating asset
+[2026.05.24-17.32.05:639][367]AssetCheck: /Game/Blueprints/UI/Notes/TutNote_1 Validating asset
+[2026.05.24-17.32.05:639][367]AssetCheck: /Game/Blueprints/UI/Notes/TutNote_2 Validating asset
+[2026.05.24-17.32.05:639][367]AssetCheck: /Game/Blueprints/UI/Notes/ThemUI Validating asset
+[2026.05.24-17.32.05:752][367]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Saved/SourceControl/UncontrolledChangelists.json
