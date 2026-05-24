@@ -21917,12 +21917,3 @@ Viewport=0x0000029AA171E380, Num=3, Size=(1942,1102), PF=18, DXGIFormat=0x18, Fu
 [2026.05.24-18.31.05:824][595]LogD3D12RHI: Error: 	System Used:	   0.00 MB
 [2026.05.24-18.31.05:824][595]LogD3D12RHI: Error: Video Memory Stats from frame ID 565289:
 [2026.05.24-18.31.05:824][595]LogD3D12RHI: Error: 	Local Budget:	7370.30 MB
-[2026.05.24-18.31.12:064][595]LogRHI: Error: Breadcrumbs 'RHIThread'
- - Frame 563593
-
-[2026.05.24-18.31.12:064][595]LogWindows: FPlatformMisc::RequestExit(0, WindowsPlatformCrashContext.ReportGPUCrash)
-[2026.05.24-18.31.12:064][595]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, WindowsPlatformCrashContext.ReportGPUCrash)
-[2026.05.24-18.31.12:064][595]LogCore: Engine exit requested (reason: Win RequestExit)
-[2026.05.24-18.31.12:065][595]LogWindows: FPlatformMisc::RequestExit(1, D3D12Util.TerminateOnGPUCrash)
-[2026.05.24-18.31.12:065][595]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, D3D12Util.TerminateOnGPUCrash)
-[2026.05.24-18.31.12:065][595]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
