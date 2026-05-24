@@ -1799,3 +1799,39 @@ FPackageName: Skipped package /Game/Blueprints/UI/Dialogue/WB_Dialogue1 has a va
 [2026.05.24-13.58.08:332][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.05.24-13.58.08:336][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
 [2026.05.24-13.58.08:444][959]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2026.05.24-13.58.36:271][160]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 703.068359
+[2026.05.24-13.58.37:271][163]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-13.58.37:271][163]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 703.734436, Update Interval: 341.282379
+[2026.05.24-13.59.46:562][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.05.24-13.59.46:564][580]Cmd: MAP LOAD FILE="../../../../../../Users/Kelco/Documents/Git/GPP/MyProject/Content/Levels/Main_Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.05.24-13.59.46:607][580]LogWorld: UWorld::CleanupWorld for Level_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2026.05.24-13.59.46:607][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-13.59.46:642][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.24-13.59.46:645][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.05.24-13.59.46:646][580]LogStreaming: Display: FlushAsyncLoading(631): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.24-13.59.51:031][580]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Level1'.
+[2026.05.24-13.59.51:032][580]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_Level1
+[2026.05.24-13.59.51:125][580]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.24-13.59.51:181][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.05.24-13.59.51:202][580]MapCheck: Repaired painted vertex colors in 0.0s for 12 components in /Game/Levels/Main_Level1.  Resave map to fix. 
+[2026.05.24-13.59.51:235][580]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.24-13.59.51:235][580]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2026.05.24-13.59.51:236][580]LogSlate: Window 'Open Level' being destroyed
+[2026.05.24-13.59.51:702][582]LogSlate: Took 0.001090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.05.24-14.03.03:056][204]LogSlate: External Image Picker: DecompressImage failed
+[2026.05.24-14.04.23:874][821]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1050.688721
+[2026.05.24-14.04.24:122][828]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.24-14.04.24:122][829]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1050.907959, Update Interval: 320.446167
+[2026.05.24-14.05.03:761][936]LogSlate: Took 0.000806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.24-14.05.04:282][937]LogInterchangeEngine: [Pending] Importing
+[2026.05.24-14.05.04:310][937]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.24-14.05.04:310][937]LogInterchangeEngine: [Success] Import Done
+[2026.05.24-14.05.04:492][938]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 31938
+[2026.05.24-14.05.04:493][938]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2026.05.24-14.05.04:503][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.24-14.05.06:798][ 17]LogInterchangeEngine: [Pending] Importing
+[2026.05.24-14.05.06:811][ 17]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.24-14.05.06:811][ 17]LogInterchangeEngine: [Success] Import Done
+[2026.05.24-14.06.07:056][448]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.24-14.06.07:083][448]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.24-14.06.31:551][807]LogSlate: External Image Picker: DecompressImage failed
