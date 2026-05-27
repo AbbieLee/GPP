@@ -16134,3 +16134,947 @@ Sampler Limit: 16
 [2026.05.27-01.49.40:888][109]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.05.27-01.49.40:888][109]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.27-01.49.40:888][109]AssetCheck: /Game/Blueprints/BP_Leverloights Validating asset
+[2026.05.27-01.50.27:217][473]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-01.50.27:217][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.50.27:337][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.05.27-01.50.27:898][501]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-01.50.27:898][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.50.27:995][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.05.27-01.50.31:048][679]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.27-01.50.31:067][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.27-01.50.31:068][679]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.50.31:112][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044013s)
+[2026.05.27-01.50.31:112][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Level1.Main_Level1 to /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 (0.044085s)
+[2026.05.27-01.50.31:163][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2026.05.27-01.50.31:165][679]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_Level1
+[2026.05.27-01.50.31:168][679]LogPlayLevel: PIE: World Init took: (0.002868s)
+[2026.05.27-01.50.31:169][679]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.27-01.50.31:169][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.27-01.50.31:170][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.27-01.50.31:170][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.27-01.50.31:170][679]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.27-01.50.31:170][679]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.27-01.50.31:170][679]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.27-01.50.31:172][679]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.27-01.50.31:310][679]LogAudioMixer: Display: Using Audio Hardware Device Headphones (陳 2 号 - Find My)
+[2026.05.27-01.50.31:310][679]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.27-01.50.31:310][679]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.27-01.50.31:311][679]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.27-01.50.31:311][679]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.05.27-01.50.31:311][679]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.05.27-01.50.31:315][679]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.05.27-01.50.31:315][679]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.05.27-01.50.31:315][679]LogInit: FAudioDevice initialized with ID 25.
+[2026.05.27-01.50.31:315][679]LogAudio: Display: Audio Device (ID: 25) registered with world 'Main_Level1'.
+[2026.05.27-01.50.31:315][679]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.05.27-01.50.31:324][679]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.27-01.50.31:337][679]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 up for play (max tick rate 60) at 2026.05.27-02.50.31
+[2026.05.27-01.50.31:337][679]LogWorld: Bringing up level for play took: 0.012938
+[2026.05.27-01.50.31:341][679]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2026.05.27-01.50.31:344][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:344][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:344][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:344][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:344][679]LogActor: Loaded Actor (BP_candle_GEN_VARIABLE_BP_candle_C_CAT) with IsValid() == false
+[2026.05.27-01.50.31:348][679]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.05.27-01.50.31:349][679]PIE: Server logged in
+[2026.05.27-01.50.31:353][679]PIE: Play in editor total start time 0.286 seconds.
+[2026.05.27-01.50.31:356][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:361][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:361][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:361][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:361][679]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:400][680]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:641][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:641][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:644][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:644][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:644][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:644][681]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:683][682]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:684][682]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:684][682]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:684][682]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.31:684][682]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:911][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:911][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:911][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:911][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:953][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:954][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:954][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:954][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:954][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:996][735]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:997][735]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:998][735]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:998][735]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.33:998][735]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:039][736]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:040][736]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:041][736]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:041][736]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:041][736]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:081][737]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:082][737]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:082][737]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:082][737]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:082][737]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:124][738]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:124][738]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:124][738]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:124][738]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:430][745]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:471][746]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:473][746]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:473][746]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:473][746]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.34:473][746]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.35:355][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.50.35:355][766]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.50.35:355][766]LogWorld: UWorld::CleanupWorld for Main_Level1, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-01.50.35:360][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.50.35:414][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.27-01.50.35:422][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.50.35:484][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.50.35:485][766]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.05.27-01.50.35:485][766]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2026.05.27-01.50.35:487][766]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2026.05.27-01.50.35:515][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.05.27-01.50.35:572][767]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2026.05.27-01.50.44:325][251]Cmd: DumpUnbuiltLightInteractions
+[2026.05.27-01.50.44:327][251]DumpUnbuiltLightIteractions
+[2026.05.27-01.50.44:327][251]Lights with unbuilt interactions: 2
+[2026.05.27-01.50.44:327][251]    Light PointLight
+[2026.05.27-01.50.44:327][251]    Light PointLight2
+[2026.05.27-01.50.44:327][251]
+[2026.05.27-01.50.44:327][251]Primitives with unbuilt interactions: 200
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_156.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_163.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_181.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_222.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_225.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_226.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_229.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_230.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_58.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_61.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_62.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_69.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_70.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_72.StaticMeshComponent0
+[2026.05.27-01.50.44:327][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_77.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_67.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_79.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_83.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_86.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_15.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_91.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_106.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_107.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_164.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_175.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_176.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_201.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_203.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_204.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_205.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_182.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_184.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_187.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_202.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_206.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_209.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_210.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_214.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_216.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_217.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_220.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_108.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_117.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_134.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_135.StaticMeshComponent0
+[2026.05.27-01.50.44:328][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_136.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_137.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_138.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_139.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_140.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_141.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_143.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_145.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_148.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_149.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_189.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_190.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_191.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_192.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_193.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_219.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_9.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_13.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_24.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_25.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_29.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_36.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_37.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_38.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_39.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_40.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_41.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_44.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_16.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_92.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_94.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_183.StaticMeshComponent0
+[2026.05.27-01.50.44:329][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_185.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_186.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_188.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_207.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_211.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_213.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_218.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_73.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_81.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_60.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_93.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_95.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_98.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_104.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_158.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_155.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_227.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_228.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_231.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_232.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_59.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_212.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_68.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_71.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_75.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_76.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_78.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_74.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_82.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_84.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_87.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_88.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_157.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_178.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_179.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_180.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_194.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_221.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_99.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_100.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_101.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_102.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_103.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_109.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_110.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_111.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_112.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_113.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_114.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_115.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_116.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_48.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_85.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_27.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_142.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_90.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_146.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_147.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_160.StaticMeshComponent0
+[2026.05.27-01.50.44:330][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_161.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_195.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_196.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_197.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_198.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_199.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_200.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_10.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_11.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_18.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_19.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_20.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_21.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_23.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_32.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_34.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_35.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_42.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_43.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_45.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_46.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_47.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_51.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_52.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_53.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_55.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_56.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_63.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_64.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_65.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_66.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_22.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_162.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_165.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_166.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_167.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_168.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_169.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_170.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_171.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_172.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_173.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_174.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_17.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_26.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_28.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_49.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_50.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_54.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_57.StaticMeshComponent0
+[2026.05.27-01.50.44:331][251]    Primitive StaticMeshComponent /Game/Levels/Main_Level1.Main_Level1:PersistentLevel.StaticMeshActor_80.StaticMeshComponent0
+[2026.05.27-01.50.47:673][418]LogSlate: Took 0.012803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.05.27-01.50.58:181][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.27-01.50.58:205][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.27-01.50.58:206][733]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.50.58:253][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046723s)
+[2026.05.27-01.50.58:253][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Level1.Main_Level1 to /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 (0.046880s)
+[2026.05.27-01.50.58:307][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2026.05.27-01.50.58:311][733]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_Level1
+[2026.05.27-01.50.58:315][733]LogPlayLevel: PIE: World Init took: (0.003362s)
+[2026.05.27-01.50.58:316][733]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.27-01.50.58:316][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.27-01.50.58:316][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.27-01.50.58:316][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.27-01.50.58:316][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.27-01.50.58:317][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.27-01.50.58:320][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.27-01.50.58:475][733]LogAudioMixer: Display: Using Audio Hardware Device Headphones (陳 2 号 - Find My)
+[2026.05.27-01.50.58:475][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.27-01.50.58:476][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.27-01.50.58:476][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.27-01.50.58:477][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.05.27-01.50.58:477][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.05.27-01.50.58:480][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.05.27-01.50.58:480][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.05.27-01.50.58:480][733]LogInit: FAudioDevice initialized with ID 26.
+[2026.05.27-01.50.58:480][733]LogAudio: Display: Audio Device (ID: 26) registered with world 'Main_Level1'.
+[2026.05.27-01.50.58:480][733]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.05.27-01.50.58:493][733]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.27-01.50.58:523][733]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 up for play (max tick rate 60) at 2026.05.27-02.50.58
+[2026.05.27-01.50.58:524][733]LogWorld: Bringing up level for play took: 0.030940
+[2026.05.27-01.50.58:528][733]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2026.05.27-01.50.58:530][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:530][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:530][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:530][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:530][733]LogActor: Loaded Actor (BP_candle_GEN_VARIABLE_BP_candle_C_CAT) with IsValid() == false
+[2026.05.27-01.50.58:534][733]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.05.27-01.50.58:535][733]PIE: Server logged in
+[2026.05.27-01.50.58:539][733]PIE: Play in editor total start time 0.334 seconds.
+[2026.05.27-01.50.58:541][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:545][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:545][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:545][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:545][733]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.58:601][734]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:511][745]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:841][752]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:843][752]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:843][752]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:843][752]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:843][752]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:892][753]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:894][753]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:895][753]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:895][753]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:895][753]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:942][754]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:945][754]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:945][754]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:945][754]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.50.59:945][754]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.02:425][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.51.02:425][798]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.51.02:426][798]LogWorld: UWorld::CleanupWorld for Main_Level1, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-01.51.02:429][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.51.02:493][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.27-01.51.02:504][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.51.02:568][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.51.02:570][798]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.05.27-01.51.02:570][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2026.05.27-01.51.02:575][798]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2026.05.27-01.51.02:589][798]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2026.05.27-01.51.02:674][799]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2026.05.27-01.51.06:656][996]Cmd: MAP CHECK
+[2026.05.27-01.51.06:658][996]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2026.05.27-01.51.06:668][996]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 11.62ms to complete.
+[2026.05.27-01.51.11:253][205]LogSlate: Window 'Message Log' being destroyed
+[2026.05.27-01.51.11:297][205]LogSlate: Window 'Message Log' being destroyed
+[2026.05.27-01.51.13:994][333]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2026.05.27-01.51.14:237][333]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2026.05.27-01.51.14:291][333]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2026.05.27-01.51.18:429][333]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2026.05.27-01.51.18:435][333]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2026.05.27-01.51.23:450][333]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2026.05.27-01.51.23:450][333]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31716
+[2026.05.27-01.51.26:323][333]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2026.05.27-01.51.26:325][333]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2026.05.27-01.51.26:325][333]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2026.05.27-01.51.26:325][333]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2026.05.27-01.51.26:325][333]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2026.05.27-01.51.26:325][333]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2026.05.27-01.51.26:559][333]LogEditorBuildUtils: Build time 0:12
+[2026.05.27-01.51.27:141][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.05.27-01.51.36:921][775]LightingResults: Warning: SM_Bottle5 Object has overlapping UVs.
+[2026.05.27-01.51.36:921][775]LightingResults: SM_Bottle5 Lightmap UV are overlapping by 25.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.36:921][775]LightingResults: Warning: SM_LaboratoryTableDrawer Object has overlapping UVs.
+[2026.05.27-01.51.36:921][775]LightingResults: SM_LaboratoryTableDrawer Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.36:942][776]LightingResults: Warning: SM_LaboratoryTable Object has overlapping UVs.
+[2026.05.27-01.51.36:942][776]LightingResults: Warning: SM_Bottle1 Object has overlapping UVs.
+[2026.05.27-01.51.36:942][776]LightingResults: SM_LaboratoryTable Lightmap UV are overlapping by 94.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.36:942][776]LightingResults: SM_Bottle1 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:178][787]LightingResults: Warning: SM_OrganJar3 Object has overlapping UVs.
+[2026.05.27-01.51.37:178][787]LightingResults: SM_OrganJar3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:740][809]LightingResults: Warning: SM_OrganJarShelf Object has overlapping UVs.
+[2026.05.27-01.51.37:740][809]LightingResults: SM_OrganJarShelf Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:785][811]LightingResults: Warning: SM_OrganJarShelf Object has overlapping UVs.
+[2026.05.27-01.51.37:785][811]LightingResults: SM_OrganJarShelf Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:816][812]LightingResults: Warning: SnowPilesC Object has overlapping UVs.
+[2026.05.27-01.51.37:816][812]LightingResults: SnowPilesC Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:816][812]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.37:849][813]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:849][813]LightingResults: Warning: SM_Bottle2 Object has overlapping UVs.
+[2026.05.27-01.51.37:849][813]LightingResults: SM_Bottle2 Lightmap UV are overlapping by 40.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:905][815]LightingResults: Warning: SM_Bottle1 Object has overlapping UVs.
+[2026.05.27-01.51.37:926][816]LightingResults: SM_Bottle1 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:958][817]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.37:958][817]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.37:958][817]LightingResults: Warning: SM_Bottle4 Object has overlapping UVs.
+[2026.05.27-01.51.37:981][818]LightingResults: SM_Bottle4 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:014][819]LightingResults: Warning: StoneBedSnow Object has overlapping UVs.
+[2026.05.27-01.51.38:014][819]LightingResults: StoneBedSnow Lightmap UV are overlapping by 76.9%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:037][820]LightingResults: Warning: SM_Bottle3 Object has overlapping UVs.
+[2026.05.27-01.51.38:037][820]LightingResults: SM_Bottle3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:104][822]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.38:104][822]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:157][824]LightingResults: Warning: SnowPilesC Object has overlapping UVs.
+[2026.05.27-01.51.38:157][824]LightingResults: SnowPilesC Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:178][825]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.38:178][825]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:223][827]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.38:223][827]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:318][830]LightingResults: Warning: SnowPilesB Object has overlapping UVs.
+[2026.05.27-01.51.38:318][830]LightingResults: SnowPilesB Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:362][832]LightingResults: Warning: SM_Bottle1 Object has overlapping UVs.
+[2026.05.27-01.51.38:362][832]LightingResults: SM_Bottle1 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:416][834]LightingResults: Warning: SM_Bottle6 Object has overlapping UVs.
+[2026.05.27-01.51.38:416][834]LightingResults: SM_Bottle6 Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:447][835]LightingResults: Warning: SM_Bottle5 Object has overlapping UVs.
+[2026.05.27-01.51.38:470][836]LightingResults: SM_Bottle5 Lightmap UV are overlapping by 25.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:503][837]LightingResults: Warning: SM_Bottle3 Object has overlapping UVs.
+[2026.05.27-01.51.38:503][837]LightingResults: SM_Bottle3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:525][838]LightingResults: Warning: SM_Bottle5 Object has overlapping UVs.
+[2026.05.27-01.51.38:525][838]LightingResults: SM_Bottle5 Lightmap UV are overlapping by 25.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:601][841]LightingResults: Warning: SM_LaboratoryTable Object has overlapping UVs.
+[2026.05.27-01.51.38:601][841]LightingResults: SM_LaboratoryTable Lightmap UV are overlapping by 94.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:632][842]LightingResults: Warning: SM_Sink Object has overlapping UVs.
+[2026.05.27-01.51.38:632][842]LightingResults: SM_Sink Lightmap UV are overlapping by 89.7%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:633][842]LightingResults: Warning: SM_Bottle4 Object has overlapping UVs.
+[2026.05.27-01.51.38:655][843]LightingResults: SM_Bottle4 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:655][843]LightingResults: Warning: SM_Bottle1 Object has overlapping UVs.
+[2026.05.27-01.51.38:655][843]LightingResults: SM_Bottle1 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:763][847]LightingResults: Warning: SM_Sink Object has overlapping UVs.
+[2026.05.27-01.51.38:763][847]LightingResults: SM_Sink Lightmap UV are overlapping by 89.7%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:785][848]LightingResults: Warning: CeilingMain Object has wrapping UVs.
+[2026.05.27-01.51.38:872][851]LightingResults: Warning: SM_LaboratoryTable Object has overlapping UVs.
+[2026.05.27-01.51.38:872][851]LightingResults: SM_LaboratoryTable Lightmap UV are overlapping by 94.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:905][852]LightingResults: Warning: SM_LaboratoryTableDrawer Object has overlapping UVs.
+[2026.05.27-01.51.38:905][852]LightingResults: SM_LaboratoryTableDrawer Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:905][852]LightingResults: Warning: CeilingMain Object has wrapping UVs.
+[2026.05.27-01.51.38:905][852]LightingResults: Warning: SM_LaboratoryTableDrawer Object has overlapping UVs.
+[2026.05.27-01.51.38:905][852]LightingResults: SM_LaboratoryTableDrawer Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:951][854]LightingResults: Warning: SM_LaboratoryTableDrawer Object has overlapping UVs.
+[2026.05.27-01.51.38:951][854]LightingResults: SM_LaboratoryTableDrawer Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.38:951][854]LightingResults: Warning: SM_Sink Object has overlapping UVs.
+[2026.05.27-01.51.38:951][854]LightingResults: SM_Sink Lightmap UV are overlapping by 89.7%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:027][857]LightingResults: Warning: Floor_LP Object has wrapping UVs.
+[2026.05.27-01.51.39:028][857]LightingResults: Warning: SM_OrganJarShelf Object has overlapping UVs.
+[2026.05.27-01.51.39:028][857]LightingResults: SM_OrganJarShelf Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:072][859]LightingResults: Warning: SM_LaboratoryTable Object has overlapping UVs.
+[2026.05.27-01.51.39:104][860]LightingResults: SM_LaboratoryTable Lightmap UV are overlapping by 94.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:104][860]LightingResults: Warning: SM_OrganJarShelf Object has overlapping UVs.
+[2026.05.27-01.51.39:104][860]LightingResults: SM_OrganJarShelf Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:150][862]LightingResults: Warning: SM_Bottle6 Object has overlapping UVs.
+[2026.05.27-01.51.39:150][862]LightingResults: SM_Bottle6 Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:150][862]LightingResults: Warning: SM_Bottle6 Object has overlapping UVs.
+[2026.05.27-01.51.39:150][862]LightingResults: SM_Bottle6 Lightmap UV are overlapping by 42.9%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:171][863]LightingResults: Warning: SM_Bottle2 Object has overlapping UVs.
+[2026.05.27-01.51.39:171][863]LightingResults: SM_Bottle2 Lightmap UV are overlapping by 40.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:194][864]LightingResults: Warning: SM_Bottle5 Object has overlapping UVs.
+[2026.05.27-01.51.39:194][864]LightingResults: SM_Bottle5 Lightmap UV are overlapping by 25.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:194][864]LightingResults: Warning: SM_Bottle1 Object has overlapping UVs.
+[2026.05.27-01.51.39:217][865]LightingResults: SM_Bottle1 Lightmap UV are overlapping by 33.3%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:315][868]LightingResults: Warning: SM_Bottle2 Object has overlapping UVs.
+[2026.05.27-01.51.39:315][868]LightingResults: SM_Bottle2 Lightmap UV are overlapping by 40.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:315][868]LightingResults: Warning: SM_Bottle5 Object has overlapping UVs.
+[2026.05.27-01.51.39:315][868]LightingResults: SM_Bottle5 Lightmap UV are overlapping by 25.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.39:346][869]LightingResults: Warning: SM_Bottle3 Object has overlapping UVs.
+[2026.05.27-01.51.39:346][869]LightingResults: SM_Bottle3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.41:303][948]LightingResults: Warning: SM_Sink Object has overlapping UVs.
+[2026.05.27-01.51.41:303][948]LightingResults: SM_Sink Lightmap UV are overlapping by 89.7%. Please adjust content - Enable Error Coloring to visualize.
+[2026.05.27-01.51.41:978][979]Job is a success!
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.065s
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:      Bricks at depth
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:      Bricks in each level
+[2026.05.27-01.51.42:310][981]LogVolumetricLightmapImport:          Main_Level1 			 16 bricks 	 100.0% (Persistent Level)
+[2026.05.27-01.51.42:371][981]LogTexture: Display: Building textures: /Game/Levels/Main_Level1_BuiltData.Main_Level1_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 3.604127 MB), EncodeSpeed: Fast
+[2026.05.27-01.51.42:371][981]LogTexture: Display: Building textures: /Game/Levels/Main_Level1_BuiltData.Main_Level1_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 2.885386 MB), EncodeSpeed: Fast
+[2026.05.27-01.51.42:445][981]Lightmass on NON-FOLDING-ONE: 14.4 sec total, 7.70 sec importing, 151.669 ms setup, 1.00 sec photons, 5.57 sec processing, 0 us extra exporting [231/231 mappings]. Threads: 1:01 min total, 14.2 sec processing.
+[2026.05.27-01.51.42:648][981]LogStaticLightingSystem: Main_Level1_BuiltData storing lightmap data for 231 meshes in 2 LightmapResourceClusters (115.5 Meshes per cluster).
+[2026.05.27-01.51.42:667][981]LogMaterial: Display: Material /Game/Materials/M_Console.M_Console needed to have new flag set bUsedWithStaticLighting !
+[2026.05.27-01.51.42:675][981]LogMaterial: Display: Material /Game/Materials/Console/OilLamp/M_OilLam.M_OilLam needed to have new flag set bUsedWithStaticLighting !
+[2026.05.27-01.51.42:690][981]LogMaterial: Display: Material /Game/Materials/ChemicalBottlesPuzzle/MI_Bottle1Label.MI_Bottle1Label needed to have new flag set bUsedWithStaticLighting !
+[2026.05.27-01.51.42:709][981]LogMaterial: Display: Material /Game/Materials/DirtyFloor/MiaTextures/M_Bookshelf_I.M_Bookshelf_I needed to have new flag set bUsedWithStaticLighting !
+[2026.05.27-01.51.42:784][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2026.05.27-01.51.42:813][981]LogStaticLightingSystem: Illumination: 28.9 sec (64.352 ms encoding lightmaps, 2.447 ms encoding shadowmaps)
+[2026.05.27-01.51.42:813][981]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2026.05.27-01.51.42:813][981]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 1 textures
+[2026.05.27-01.51.43:339][981]DumpUnbuiltLightIteractions
+[2026.05.27-01.51.43:339][981]Lights with unbuilt interactions: 0
+[2026.05.27-01.51.43:339][981]
+[2026.05.27-01.51.43:339][981]Primitives with unbuilt interactions: 0
+[2026.05.27-01.51.45:573][981]Cmd: MAP CHECK NOTIFYRESULTS
+[2026.05.27-01.51.45:575][981]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.02ms to complete.
+[2026.05.27-01.51.45:726][982]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.05.27-01.51.45:826][982]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2026.05.27-01.51.50:723][191]LogSlate: Window 'Message Log' being destroyed
+[2026.05.27-01.51.50:784][191]LogSlate: Window 'Message Log' being destroyed
+[2026.05.27-01.51.52:057][260]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.27-01.51.52:090][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.27-01.51.52:090][260]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.51.52:147][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056766s)
+[2026.05.27-01.51.52:147][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Level1.Main_Level1 to /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 (0.056843s)
+[2026.05.27-01.51.52:205][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.05.27-01.51.52:211][260]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_Level1
+[2026.05.27-01.51.52:214][260]LogPlayLevel: PIE: World Init took: (0.002995s)
+[2026.05.27-01.51.52:215][260]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.27-01.51.52:215][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.27-01.51.52:215][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.27-01.51.52:215][260]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.27-01.51.52:215][260]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.27-01.51.52:215][260]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.27-01.51.52:219][260]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.27-01.51.52:367][260]LogAudioMixer: Display: Using Audio Hardware Device Headphones (陳 2 号 - Find My)
+[2026.05.27-01.51.52:367][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.27-01.51.52:367][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.27-01.51.52:367][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.27-01.51.52:368][260]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.05.27-01.51.52:368][260]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.05.27-01.51.52:372][260]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.05.27-01.51.52:372][260]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.05.27-01.51.52:372][260]LogInit: FAudioDevice initialized with ID 27.
+[2026.05.27-01.51.52:372][260]LogAudio: Display: Audio Device (ID: 27) registered with world 'Main_Level1'.
+[2026.05.27-01.51.52:372][260]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.05.27-01.51.52:379][260]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.27-01.51.52:393][260]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1 up for play (max tick rate 60) at 2026.05.27-02.51.52
+[2026.05.27-01.51.52:394][260]LogWorld: Bringing up level for play took: 0.014012
+[2026.05.27-01.51.52:397][260]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2026.05.27-01.51.52:399][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:399][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:399][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:399][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:399][260]LogActor: Loaded Actor (BP_candle_GEN_VARIABLE_BP_candle_C_CAT) with IsValid() == false
+[2026.05.27-01.51.52:403][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.05.27-01.51.52:405][260]PIE: Server logged in
+[2026.05.27-01.51.52:409][260]PIE: Play in editor total start time 0.319 seconds.
+[2026.05.27-01.51.52:410][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:414][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:414][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:414][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:414][260]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.52:459][261]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:510][280]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:511][280]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:511][280]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:511][280]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:511][280]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:555][281]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:557][281]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:557][281]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:557][281]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:557][281]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:600][282]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:602][282]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:602][282]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:602][282]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:602][282]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:646][283]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:648][283]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:648][283]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:648][283]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:648][283]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:696][284]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:698][284]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:698][284]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:698][284]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:698][284]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:744][285]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:745][285]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:745][285]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:745][285]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:745][285]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:794][286]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:797][286]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:797][286]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:797][286]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:797][286]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:848][287]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:850][287]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:850][287]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:850][287]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:850][287]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:900][288]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:901][288]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:901][288]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:901][288]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:901][288]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:954][289]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:955][289]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:955][289]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:955][289]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.53:955][289]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:004][290]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:005][290]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:005][290]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:005][290]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:006][290]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:054][291]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:055][291]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:055][291]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:055][291]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:055][291]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:101][292]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:103][292]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:103][292]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:103][292]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:103][292]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:148][293]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:150][293]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:150][293]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:150][293]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:150][293]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:197][294]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:198][294]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:199][294]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:199][294]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:199][294]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:244][295]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:245][295]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:245][295]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:245][295]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:245][295]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:289][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:292][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:292][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:292][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:292][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:335][297]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:337][297]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:337][297]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:337][297]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:337][297]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:381][298]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:383][298]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:383][298]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:384][298]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:384][298]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:428][299]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:430][299]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:430][299]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:430][299]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:430][299]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:479][300]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:481][300]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:481][300]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:481][300]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:481][300]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:530][301]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:531][301]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:531][301]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:531][301]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:531][301]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.54:579][302]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:425][320]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:469][321]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:994][332]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:995][332]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:995][332]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:995][332]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.55:995][332]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:039][333]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:040][333]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:040][333]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:040][333]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:040][333]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:086][334]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:088][334]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:088][334]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:088][334]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:088][334]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:131][335]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:133][335]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:133][335]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:133][335]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:133][335]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:176][336]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:178][336]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:178][336]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:178][336]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:178][336]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:223][337]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:269][338]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:315][339]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:362][340]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:408][341]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:455][342]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:501][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:501][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:502][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:502][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:502][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:502][343]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:548][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:548][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:549][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:549][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:549][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:549][344]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:594][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:594][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:595][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:595][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:595][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:595][345]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:637][346]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:639][346]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:639][346]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:639][346]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:639][346]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:681][347]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:683][347]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:683][347]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:683][347]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:683][347]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:726][348]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:727][348]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:727][348]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:727][348]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:727][348]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:771][349]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:771][349]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:771][349]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:771][349]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:819][350]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:820][350]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:820][350]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:820][350]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:820][350]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:869][351]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:871][351]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:871][351]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:871][351]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.56:871][351]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:382][363]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:384][363]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:384][363]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:384][363]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:384][363]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:424][364]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:426][364]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:426][364]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:426][364]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:426][364]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:470][365]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:471][365]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:471][365]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:471][365]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:471][365]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:511][366]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:513][366]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:513][366]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:514][366]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:514][366]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:556][367]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:558][367]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:558][367]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:558][367]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:558][367]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:601][368]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:601][368]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:601][368]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:601][368]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:601][368]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:647][369]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:648][369]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:648][369]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:648][369]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:648][369]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:691][370]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:691][370]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:691][370]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:691][370]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:918][375]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:918][375]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:918][375]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:918][375]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:962][376]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:963][376]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:964][376]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:964][376]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.57:964][376]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:008][377]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:008][377]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:008][377]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:008][377]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:053][378]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:055][378]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:055][378]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:055][378]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:055][378]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:101][379]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:101][379]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:101][379]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:101][379]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:101][379]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:147][380]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:148][380]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:148][380]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:148][380]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:148][380]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:196][381]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:197][381]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:197][381]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:197][381]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:197][381]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:244][382]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:246][382]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:246][382]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:246][382]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:246][382]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:289][383]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:290][383]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:290][383]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:290][383]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:290][383]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:336][384]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:701][392]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:701][392]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:701][392]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:701][392]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:701][392]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:744][393]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:789][394]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:833][395]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:876][396]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:877][396]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:877][396]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:877][396]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:877][396]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:921][397]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:922][397]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:922][397]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:923][397]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:923][397]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:969][398]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:970][398]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:970][398]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:970][398]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.58:970][398]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:014][399]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:015][399]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:015][399]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:015][399]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:015][399]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:058][400]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:923][418]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:971][419]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:973][419]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:973][419]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:973][419]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.51.59:973][419]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:311][426]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:313][426]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:313][426]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:313][426]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:313][426]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:359][427]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:360][427]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:361][427]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:361][427]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:361][427]LogSkinnedMeshComp: Warning: GetSocketInfoByName(head): No SkeletalMesh for Component(FirstPersonMesh) Actor(BP_FirstPersonCharacter_C /Game/Levels/UEDPIE_0_Main_Level1.Main_Level1:PersistentLevel.BP_FirstPersonCharacter_C_0)
+[2026.05.27-01.52.00:395][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.52.00:395][427]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Level1
+[2026.05.27-01.52.00:396][427]LogWorld: UWorld::CleanupWorld for Main_Level1, bSessionEnded=true, bCleanupResources=true
+[2026.05.27-01.52.00:401][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.52.00:457][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.27-01.52.00:468][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.27-01.52.00:536][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.27-01.52.00:538][427]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.05.27-01.52.00:539][427]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2026.05.27-01.52.00:543][427]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2026.05.27-01.52.00:577][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2026.05.27-01.52.00:705][428]LogPlayLevel: Display: Destroying online subsystem :Context_72
